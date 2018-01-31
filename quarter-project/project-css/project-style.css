@@ -1,0 +1,349 @@
+
+* {
+padding:0;
+margin:0;}
+
+body {
+background-image:url(../project-images/LOTR-background.jpg);}
+
+tab {
+padding-left: 4em;}
+
+div#wrapper {
+width:960px;
+background-image: url(../project-images/parchment.jpg);
+background-size: 960px;
+margin:0px auto 0px auto;
+border: 1px dotted black;}
+
+header {
+/*border:2px dotted red;*/}
+
+nav {
+height:50px;
+line-height:50px;
+background:#271F00;
+margin-top:20px;}
+
+nav li {
+float:left;
+list-style-type:none;
+width:20%;
+text-align:center;}
+
+nav a {
+text-decoration:none;
+color:#F1E4D7;
+display:block;}
+
+nav a:hover{
+background:#01355A;
+color:black;}
+
+div#banner {
+margin-top:20px;
+width: 100%;}
+
+main {
+clear:both;
+margin:20px auto 0px auto;
+/*border:2px solid red;*/
+text-align:left;
+padding:0px 140px;}
+
+main.about {
+clear:both;
+margin:20px auto 0px auto;
+/*border:2px solid red;*/
+text-align:left;
+padding:0px 140px;}
+
+aside {
+width:340px;
+float:right;
+margin-bottom: 20px;}
+
+div#container {
+clear:both;
+width:100%;
+margin-bottom:20px;
+margin-top:20px;
+/*border:1px solid blue;*/
+overflow: auto;}
+
+div#container_survey {
+clear:both;
+margin-bottom: 20px;
+padding-top: 20px;}
+
+div#container a {
+text-decoration:none;
+display:block;}
+
+form li {
+list-style-type: none;
+margin-left: 10px;
+margin-bottom: 4px;}
+
+form ul {
+margin-bottom: 10px;}
+
+input[type=text]{
+height: 20px;
+width: 98%;
+margin-bottom: 10px;}
+
+input[type=email]{
+height: 20px;
+width: 98%;
+margin-bottom: 10px;}
+
+input[type=radio]{
+margin-right: 7px;}
+
+input[type=checkbox]{
+margin-right: 7px;}
+
+table{
+width: 100%;}
+
+textarea {
+width: 98%;
+margin-bottom: 10px;
+resize: both;}
+
+aside{	
+float:right;
+margin-right:14%;
+/*border:1px solid red;*/}
+
+div.box1,
+div.box2,
+div.box3{
+margin: 10px auto;
+/*border: 2px solid green;*/
+width: 800px;
+text-align:left;}
+
+div.box4,
+div.box5,
+div.box6,
+div.box7 {
+position: relative;
+width: 160px;
+float:left}
+
+div.box4{
+margin-left: 100px;
+}
+
+div.box5,
+div.box6,
+div.box7 {
+margin-left: 40px;}
+
+div.box8,
+div.box9,
+div.box10{
+width: 300px;
+margin-left: 14%;
+float:left;}
+
+div.box10{
+float:right;}
+
+div.box11,
+div.box12{
+margin-top: 14px;
+position:relative;
+width:340px;}
+
+div.box11{
+margin-left: 14%;
+float:left;}
+
+div.box12{
+margin-right: 14%;
+float:right;}
+
+fieldset {
+padding: 12px 10px 12px 10px;
+height: 170px;}
+
+img.saruman-image,
+img.gandalf-image,
+img.radagast-image,
+img.theblue-image{
+display: block;
+width: 100%;
+height: 220px;}
+
+div.saruman-overlay,
+div.gandalf-overlay,
+div.radagast-overlay,
+div.theblue-overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;}
+
+div.box4:hover div.saruman-overlay{
+opacity: .5;}
+
+div.box5:hover div.gandalf-overlay{
+opacity: .5;}
+
+div.box6:hover div.radagast-overlay{
+opacity: .5;}
+
+div.box7:hover div.theblue-overlay{
+opacity: .5;}
+
+img.journey-image,
+img.elven-home-image{
+display: block;
+height: 220px;}
+
+div.journey-overlay,
+div.elven-home-overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;}
+
+div.box11:hover div.journey-overlay{
+opacity: .5;}
+
+div.box12:hover div.elven-home-overlay{
+opacity: .5;}
+
+div.text {
+color: black;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);}
+
+div.istar-profile-box {
+float: left;
+width: 260px;
+margin-left: 16%;
+margin-top: 20px;
+margin-bottom: 14px;
+background: white;}
+
+div.istar-profile-box-2 {
+float: right;
+width: 260px;
+margin-right: 16%;
+background: darkgray;
+padding: 8px;}
+
+footer {
+clear:both;
+height:50px;
+line-height:50px;
+border-top: 2px dotted gray;
+border-bottom: 2px dotted gray;}
+
+footer li {
+float:left;
+list-style-type:none;
+width:33%;
+text-align:center;
+color: #666;}
+
+footer a {
+color: #666;}
+
+img {
+display:block;
+max-width:100%;}
+
+img.istar-profile {
+display:block;
+max-width:260px;
+height:auto;}
+
+img.map {
+display:block;
+margin: 0px auto;
+max-width:100%;}
+
+img.image-banner {
+display:block;
+margin: 0px auto;
+max-width:100%;}
+
+img.center {
+margin: 10px auto;
+padding-bottom: 10px;}
+
+p {
+line-height:1.5em;
+font-family:verdana, helvetica, arial;
+color:#271F00;}
+
+p.center {
+text-align: center;
+line-height:1.5em;
+font-family:verdana, helvetica, arial;
+color:#271F00;}
+
+h1,
+h2,
+h3,
+h4{
+color:#271F00;
+font-weight:200;}
+
+h1 {
+font-size:2.441em;
+line-height:1.15;
+margin-bottom:7px;}
+
+h2 {
+font-size:1.953em;
+line-height:1.15;
+margin-bottom:7px;}
+
+h2.center {
+text-align:center;
+font-size:1.953em;
+line-height:1.15;
+margin-bottom:7px;}
+
+h3 {
+font-size:1.563em;
+line-height:1.15;
+margin-bottom:7px;}
+
+h4 {
+font-size:1.25em;
+line-height:1.15;
+margin-bottom:7px;}
+
+figcaption {
+font-size:.875em;
+font-style:italic;
+text-align:center;
+background: #56483E;
+padding: 8px;}
+
+img#logo {
+width:150px;
+margin:10px auto;}
